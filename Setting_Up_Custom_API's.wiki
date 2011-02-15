@@ -1,0 +1,29 @@
+To get you started, I am including the **
+[[wow-apis.zip|World of Warcraft API]]**
+
+Create a directory to store your library files.
+
+File|Project Structure|SDK's|<Your SDK>|ClassPath - Add the directory you just created.
+
+Now if you have libraries with Lua definitions already, you can just point to their directory, or place them in the directory you created.
+
+If your API has no Lua definitions, you will need to make a Lua file and define functions for each Name you want to resolve:
+
+function foo1 end
+function foo2 end
+function foo3 end
+
+This gets you auto-completion for these names.
+
+You can also get quick navigate docs by supplying a properties file in the same directory with name = documentation entries
+
+foo1 = foo1's doc
+foo2 = foo2's doc
+foo3 = foo3's doc
+
+{{2-11-2011-6-27-16.png}}
+{{2-11-2011-6-29-06.png}}
+{{2-11-2011-6-30-27.png}}
+{{2-11-2011-6-31-33.png}}
+{{2-11-2011-6-32-22.png}}
+{{2-11-2011-6-40-06.png}}
